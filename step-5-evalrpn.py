@@ -30,3 +30,4 @@ sol = Solution()
 print(sol.evalRPN(["2", "1", "+", "3", "*"]))  # Output: 9
 print(sol.evalRPN(["4", "13", "5", "/", "+"]))  # Output: 6
 print(sol.evalRPN(["10", "6", "9", "3", "/", "-", "*"]))  # Output: 60
+ 
