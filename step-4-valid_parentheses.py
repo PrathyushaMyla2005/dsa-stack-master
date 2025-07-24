@@ -12,7 +12,7 @@ class Solution(object):
         mapping = {')': '(', '}': '{', ']': '['}
         
         for char in s:
-            if char in mapping:
+            if char in mapping: # closing bracket like ')', '}', ']'
                 # Pop the top element if stack is not empty, else use a dummy value
                 top_element = stack.pop() if stack else '#'
                 if mapping[char] != top_element:

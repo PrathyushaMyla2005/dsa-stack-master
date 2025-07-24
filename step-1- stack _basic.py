@@ -13,14 +13,14 @@ This file contains the basic implementation of the stack data structure using a 
 - size(): Return the current size of the stack.
 
 📈 Time Complexity:
-- push: O(1)
+- push: O(1)# why we use constant time for push operation?
 - pop: O(1)
 - peek: O(1)
 - is_empty: O(1)
 - size: O(1)
 
 📦 Space Complexity:
-- O(n), where n is the number of elements in the stack.
+- O(n), where n is the number of elements in the stack. we use a linear space to store the elements.
 
 ✅ Written for product-based company interview preparation.
 """
